@@ -27,7 +27,7 @@ SSD/NoShuffleSE uses a reduced version of the Shufflenetv2 architecture as a bac
 ![Architecture](./images/Architecture/ssd_layer_shufflenet_se_repository.jpg)
 
 ### Performance
-| Arquitectura      | Training set | F1 score | FPS |
+| Architectura      | Training set | F1 score | FPS |
 |-------------------|--------------|----------|-----|
 | SSD/Mobilenetv1   | 07++12       | 0.6501   | **22**  |
 | SSD/Mobilenetv2   | 07++12       | 0.6094   | 12  |
@@ -37,9 +37,9 @@ SSD/NoShuffleSE uses a reduced version of the Shufflenetv2 architecture as a bac
 | SSD/NoShuffleSE   | 07++12       | 0.6768   | 20  |
 | SSD/NoShuffleSE   | 07++12+COCO  | **0.7094**   | 20  |
 
-SB indicates simple bypass
-The time is measured with Intel® Core™ i7-7740X CPU @ 4.30GHz × 8
-SSD/NoShuffleSE achieves an Average Precision of **66.0** on PASCAL VOC 2007
+SB indicates simple bypass.
+The time is measured with Intel® Core™ i7-7740X CPU @ 4.30GHz × 8, Frames per second (FPS).
+SSD/NoShuffleSE achieves an Average Precision of **66.0** on PASCAL VOC 2007.
 
 ### PASCAL 
 You can download the PASCAL dataset in the format needed for the model in [download_pascal_dataset.ipynb](download_pascal_dataset.ipynb)
